@@ -1,0 +1,15 @@
+Algorithm for Assignment 1 - first iteration
+
+(1) Take the first data item YYYY/MM/DD (e.g. 2019/01/20), 
+    remove the two '/' and convert it to an integer
+
+(2) Take the second data item N and convert it to an integer
+    (it could be a positive or negative number)
+
+(3) Add the 2nd integer to the 1st integer and assign the
+    result to another integer object named "result"
+
+(4) Convert the "result" integer object to a string object
+    and insert two '/'s, one between 'YYYY' and 'MM', the
+    other between 'MM' and 'DD', and send it to the standard
+    output.
