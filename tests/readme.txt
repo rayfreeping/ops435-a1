@@ -1,13 +1,13 @@
 When you have your python script for assignment 1 ready, name your script as
 a1_[seneca_id].py. The following example assume "rchan" is the [seneca_id]. 
-Run the test script a1_testrun.py as show below.
+Run the test script checkA1.py as show below.
 
-Please note that this test script "a1_testrun.py" does not perform a full test. 
+Please note that this test script "checkA1.py" does not perform a full test. 
 It will not check the docstring in your script.
 
-You algorithm and files on github.com will be checked manually.
+Your algorithm file and other files on github.com will be checked manually.
 
-[rchan@centos7 a1]$ python3 a1_testrun.py rchan
+[rchan@centos7 a1]$ python3 checkA1.py rchan
 
 == Preliminary A1 Test Run Report for rchan==
 The following is your preliminary test run report for assignment 1. Please review the report and fix all the errors identified before submitting your algorithm, python script, and test report to blackboard using the assignment 1 submission link which will be available on Monday, October 7, 2019.
@@ -42,6 +42,5 @@ Total marks for script (max. 48): 48.0
 If you see any test being failed, please debug your script and fix 
 the error(s) and re-run the above command to re-test your script.
 
-Once you are satisfied with the result, capture the test run results to a file and name it as "a1_test_result.txt". Submit the test result and your script, 
-together with the algorithm file to blackboard.
+Once you are satisfied with the result, capture the test run results to a file and name it as "a1_results.txt". Submit the test result and your script, together with the algorithm file to blackboard.
 
