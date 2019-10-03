@@ -29,7 +29,11 @@ Test run command 7 : python3 a1_rchan.py 2018/01/99 2
 --test passed--
 Test run command 8 : python3 a1_rchan.py 2018 2
 --test passed--
-Test Results: {1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1}
+Test run command 9 : python3 a1_rchan.py 2020/02/28 1
+--test passed--
+Test run command 10 : python3 a1_rchan.py 2020/03/01 -1
+--test passed--
+Test Results: {1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1, 10: 1}
 Total test run marks:  48.0
 Total marks for script (max. 48): 48.0
 
