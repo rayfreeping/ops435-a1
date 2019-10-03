@@ -1,7 +1,11 @@
 When you have your python script for assignment 1 ready, name your script as
-a1_[seneca_id].py. The following example assume "rchan" is the [seneca_id]. Run the test script a1_testrun.py as show below.
+a1_[seneca_id].py. The following example assume "rchan" is the [seneca_id]. 
+Run the test script a1_testrun.py as show below.
 
-Please note that this test script "a1_testrun.py" does not perform a full test. It will not check the docstring in your script.
+Please note that this test script "a1_testrun.py" does not perform a full test. 
+It will not check the docstring in your script.
+
+You algorithm and files on github.com will be checked manually.
 
 [rchan@centos7 a1]$ python3 a1_testrun.py rchan
 
@@ -26,8 +30,8 @@ Test run command 7 : python3 a1_rchan.py 2018/01/99 2
 Test run command 8 : python3 a1_rchan.py 2018 2
 --test passed--
 Test Results: {1: 1, 2: 1, 3: 1, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1}
-Total test run marks:  46.0
-Total marks for script (max. 46): 46.0
+Total test run marks:  48.0
+Total marks for script (max. 48): 48.0
 
 --------------------------------------------------------------
 
