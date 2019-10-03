@@ -48,7 +48,9 @@ if __name__ == '__main__':
              5:['2018/07/01 500','2019/11/13'],
              6:['2018/99/01 2','Error: wrong month entered'],
              7:['2018/01/99 2','Error: wrong day entered'],
-             8:['2018 2','Error: wrong date entered']
+             8:['2018 2','Error: wrong date entered'],
+             9:['2020/02/28 1','2020/02/29'],
+            10:['2020/03/01 -1','2020/02/29']
             }
    test_marks = {}
    for test_no in range(1,len(tests)+1):
