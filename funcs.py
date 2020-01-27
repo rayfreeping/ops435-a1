@@ -1,17 +1,17 @@
-# Return the date in YYYY/MM/DD after the given day
+# Return the date in YYYY-MM-DD after the given day
 # 
 def after(today):
     '''
-    after() -> date for next day in YYYY/MM/DD string format
+    after() -> date for next day in YYYY-MM-DD string format
 
-    Return the date for the next day of the given date in YYYY/MM/DD format.
+    Return the date for the next day of the given date in YYYY-MM-DD format.
     This function takes care of the number of days in February for leap year.
     This fucntion has been tested to work for year after 1582
     '''
     if len(today) != 10:
-       return '0000/00/00'
+       return '0000-00-00'
     else:
-       str_year, str_month, str_day = today.split('/')
+       str_year, str_month, str_day = today.split('-')
        year = int(str_year)
        month = int(str_month)
        day = int(str_day)
@@ -46,6 +46,6 @@ def after(today):
        else:
            to_month = tmp_month + 0
 
-       next_date = str(year)+"/"+str(to_month).zfill(2)+"/"+str(to_day).zfill(2)
+       next_date = str(year)+"-"+str(to_month).zfill(2)+"-"+str(to_day).zfill(2)
      
        return next_date
