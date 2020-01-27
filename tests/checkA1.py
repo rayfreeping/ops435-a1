@@ -6,7 +6,7 @@ Please note that this script does not check the docstring of the script
 or its functions.
 
 Released by Raymond Chan on Oct 30, 2018
-Updated for the 2019 Fall Semester version on Oct 2, 2019
+Updated for the 2020 Winter Semester version on January 26, 2020
 
 '''
 
