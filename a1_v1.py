@@ -3,10 +3,10 @@
 
 #Author: Raymond Chan
 #Author ID: rchan
-#Date: 2019/09/25
+#Date: 2020-01-26
 
 import sys
-first_number = int(sys.argv[1].replace('/',''))
+first_number = int(sys.argv[1].replace('-',''))
 second_number = int(sys.argv[2])
 result = str(first_number + second_number)
-print(result[0:4]+'/'+result[4:6]+'/'+result[6:])
+print(result[0:4]+'-'+result[4:6]+'-'+result[6:])
