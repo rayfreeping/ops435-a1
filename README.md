@@ -4,5 +4,5 @@
 For the detail specification, please go to
 https://wiki.cdot.senecacollege.ca/wiki/OPS435_Python3_Assignment_1
 
-Due date: October 11, 2019 before mid-night
+Due date: February 14, 2020 before mid-night
 
