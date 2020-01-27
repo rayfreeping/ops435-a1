@@ -10,7 +10,7 @@ Your algorithm file and other files on github.com will be checked manually.
 [rchan@centos7 a1]$ python3 checkA1.py rchan
 
 == Preliminary A1 Test Run Report for rchan==
-The following is your preliminary test run report for assignment 1. Please review the report and fix all the errors identified before submitting your algorithm, python script, and test report to blackboard using the assignment 1 submission link which will be available on Monday, October 7, 2019.
+The following is your preliminary test run report for assignment 1. Please review the report and fix all the errors identified before submitting your algorithm, python script, and test report to blackboard using the assignment 1 submission link which will be available on Friday, February 7, 2020.
 
 ========================================
 Test run command 1 : python3 a1_rchan.py 2018/01/01 1
