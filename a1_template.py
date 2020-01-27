@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-''' put your script level docstring here...
+''' template for ops435 assignment 1 script
+    put your script level docstring here...
     you can have more than one line
 '''
 
