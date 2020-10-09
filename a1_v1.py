@@ -1,12 +1,13 @@
-#!/usr/bin/env/python3
-'''Python script for OPS435 assignment 1'''
-
-#Author: Raymond Chan
-#Author ID: rchan
-#Date: 2020-01-26
-
+#! /usr/bin/env python3
+'''1st attempt for 2020 Fall Semester Assignment 1'''
+# Author: Raymond Chan
+# Date: 2020-10-07
 import sys
-first_number = int(sys.argv[1].replace('-',''))
-second_number = int(sys.argv[2])
-result = str(first_number + second_number)
-print(result[0:4]+'-'+result[4:6]+'-'+result[6:])
+dob = sys.argv[1].replace('/','')
+month_name = ['Jan','Feb','Mar','Apr','May','Jun',
+              'Jul','Aug','Sep','Oct','Nov','Dec']
+year = dob[0:4]
+month = int(dob[4:6])
+day = dob[6:]
+new_dob = month_name[month - 1] + ' ' + day + ', ' + year
+print("Your date of birth is:", new_dob)
