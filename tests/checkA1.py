@@ -8,6 +8,8 @@ or its functions.
 Released by Raymond Chan on Oct 30, 2018
 Updated for the 2020 Winter Semester version on January 26, 2020
 
+Updated version for 2020 Fall Semester will be available soon.
+
 '''
 
 import types 
