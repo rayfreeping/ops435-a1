@@ -7,34 +7,39 @@
 import os
 import sys
 
-def after(today):
+def leap_year(obj):
     '''
     put your function level docstring here ...
     '''
     ...
 
-    return next_day
+    return status
 
-def before(today):
+def size_check(obj):
     '''
     put your function level docstring here ..
     '''
     ...
 
-    return previous_day
+    return status
 
 ...
 
-def dbda(date, days):
+def value_check(obj1, obj2):
     ...
-    setup loop:
-        call after() of before() as appropriate
-    return target_date
+    put your function level docstring here ..
+    '''
+    ...
+    
+    return status
 
 if __name__ == "__main__":
   
-   ... processing command line arguments ...
-   ... call dbda()
-   ...
+   ... access command line argument  ...
+   ... sanitized the input data
+   ... check for the size of the input data
+   ... extract year, month, day from input data
+   ... validate extracted data item
+   ... convert validate input data to standard format
    ... output the result
   
