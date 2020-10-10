@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 ''' template for ops435 assignment 1 script
     put your script level docstring here...
-    you can have more than one line
+    you can have more than one line of docstring.
+    Please personlize the following author declaration:
 -----------------------------------------------------------------------
 OPS435 Assignment 1 - Fall 2020
 Program: a1_[Seneca_name].py (replace [Seneca_name] with your Seneca User name)
@@ -33,7 +34,7 @@ def sanitize(obj1,obj2):
     
     return results
 
-def size_check(obj):
+def size_check(obj, intobj):
     '''
     put your function level docstring here ..
     '''
