@@ -19,7 +19,7 @@ import subprocess
 
 
 def preliminary_grading(stud_name):
-    message = '\n== Preliminary A1 Test Run Report for '+stud_name+'==\nThe following is your preliminary test run report for assignment 1. Please review the report and fix all the errors identified before submitting your algorithm, python script, and test report to blackboard using the assignment 1 submission link which will be available on Monday, October 7, 2019.\n'
+    message = '\n== Preliminary A1 Test Run Report for '+stud_name+'==\nThe following is your preliminary test run report for assignment 1. Please review the report and fix all the errors identified before submitting your algorithm, python script, and test report to blackboard using the assignment 1 submission link which will be available on Monday, October 16 2020.\n'
     return message
 
 
@@ -43,16 +43,21 @@ if __name__ == '__main__':
    doc_marks = {} # data dictionary for documentation mark
    total_doc_marks = 0
    # test running student's script
-   tests = { 1:['2018-01-01 1','2018-01-02'],
-             2:['2018-01-01 -1','2017-12-31'],
-             3:['2018-01-01 2','2018-01-03'],
-             4:['--step 2018-01-01 3','2018-01-02\n2018-01-03\n2018-01-04\n'],
-             5:['2018-07-01 500','2019-11-13'],
-             6:['2018-99-01 2','Error: wrong month entered'],
-             7:['2018-01-99 2','Error: wrong day entered'],
-             8:['2018 2','Error: wrong date entered'],
-             9:['2020-02-28 1','2020-02-29'],
-            10:['2020-03-01 -1','2020-02-29']
+   tests = { 1:['2020-10-10','Oct 10, 2020\n'],
+             2:['2020-10-09','Oct 9, 2020\n'],
+             3:['2020-06-30','Jun 30, 2020\n'],
+             4:['20201010','Oct 10, 2020\n'],
+             5:['2020/10/10','Oct 10, 2020\n'],
+             6:['2020.02.29','Feb 29, 2020\n'],
+             7:['2019.02.29','Error 03: wrong day entered\n'],
+             8:['2019.13.12','Error 02: wrong month entered\n'],
+             9:['2019.06.31','Error 03: wrong day entered\n'],
+            10:['201802','Error 09: wrong date entered\n'],
+            11:['18981225','Error 10: year out of range, must be 1900 or later\n'],
+            12:['19981299','Error 03: wrong day entered\n'],
+            13:['189802','Error 09: wrong date entered\n'],
+            14:['20201010 2020/10/10','Usage: '+a1_script+' YYYYMMDD|YYYY/MM/DD|YYYY-MM-DD|YYYY.MM.DD\n'],
+            15:['','Usage: '+a1_script+' YYYYMMDD|YYYY/MM/DD|YYYY-MM-DD|YYYY.MM.DD\n']
             }
    test_marks = {}
    for test_no in range(1,len(tests)+1):
@@ -73,7 +78,7 @@ if __name__ == '__main__':
    total_test_marks = 0
    for item in test_marks:
        total_test_marks += test_marks[item] 
-   total_test_marks = total_test_marks / len(tests) * 48
+   total_test_marks = total_test_marks / len(tests) * 30
    print('Total test run marks: ',total_test_marks)
    grand_total = total_test_marks + total_doc_marks
-   print('Total marks for script (max. 48):',grand_total)
+   print('Total marks for script (max. 30):',grand_total)
