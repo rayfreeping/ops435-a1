@@ -60,7 +60,7 @@ def usage():
 if __name__ == "__main__":
    # step 1
    if len(sys.argv) != 2:
-      usage()
+      print(usage())
       sys.exit()
    # step 2
    month_name = ['Jan','Feb','Mar','Apr','May','Jun',
