@@ -4,7 +4,7 @@
     you can have more than one line of docstring.
     Please personlize the following author declaration:
 -----------------------------------------------------------------------
-OPS435 Assignment 1 - Fall 2020
+OPS435 Assignment 1 - Winter 2021
 Program: a1_[Seneca_name].py (replace [Seneca_name] with your Seneca User name)
 Author: "Student Name"
 The python code in this file (a1_[Seneca_name].py) is original work written by
