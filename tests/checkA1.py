@@ -4,12 +4,10 @@ This check script will run the sample tests on assignment 1 script
 before submitting to blackboard by the students.
 Please note that this script does not check the docstring of the script 
 or its functions.
+This check scripts will only account for 30% of assignment 1.
 
 Released by Raymond Chan on Oct 30, 2018
-Updated for the 2020 Winter Semester version on January 26, 2020
-
-Updated version for 2020 Fall Semester will be available soon.
-
+Updated for the 2021 Winter Semester version on Feb 3, 2021
 '''
 
 import types 
