@@ -1,7 +1,7 @@
 #! /usr/bin/env python3
-'''1st attempt for 2020 Fall Semester Assignment 1'''
+'''1st attempt for 2021 Winter Semester Assignment 1'''
 # Author: Raymond Chan
-# Date: 2020-10-07
+# Date: 2021-02-03
 import sys
 dob = sys.argv[1].replace('/','')
 month_name = ['Jan','Feb','Mar','Apr','May','Jun',
