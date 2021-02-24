@@ -10,3 +10,5 @@ Algorithm for Assignment 1 - first iteration - By Raymond Chan
 
 (4) Rearrange the year, month, and day into the required format
     i.e. mmm d, yyyy
+    
+(5) Send the final data to standard output    
